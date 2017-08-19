@@ -21,6 +21,3 @@ class News extends React.Component {
 }
 
 export default News;
-
-
-#Test
