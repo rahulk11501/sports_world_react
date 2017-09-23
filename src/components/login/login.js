@@ -28,7 +28,7 @@ class Login extends React.Component {
 }
 
 callbackLinkedIn = (response) =>{
-	console.log('jsdjnd')
+	console.log(response)
 }
 
 
@@ -58,7 +58,7 @@ callbackLinkedIn = (response) =>{
 					<br/>
 
       <LinkedIn
-        clientId='75op08bvjw26s3'
+        clientId='81lrtbxpin7518'
         callback={this.callbackLinkedIn}
         text='LinkedIn' />
     )
