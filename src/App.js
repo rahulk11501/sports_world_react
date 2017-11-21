@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 // import logo from './logo.svg';
 import './App.css';
-import { Switch, Route } from 'react-router-dom'
+import { Link, Switch, Route } from 'react-router-dom'
 import About from './components/about/about.js'
 import Contact from './components/contact/contact.js'
 import Home from './components/home/home.js'
@@ -17,19 +17,19 @@ class App extends Component {
         <ul className="sidenav">
 
           <li>
-              <a href="/" className="active">Home</a>
+              <Link to="/" className="active">Home</Link>
           </li>
           <li>
-              <a href="/news">News</a>
+              <Link to="/news">News</Link>
           </li>
           <li>
-              <a href="/about">About</a>
+              <Link to="/about">About</Link>
           </li>
           <li>
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact</Link>
           </li>
           <li>
-              <a href="/login">Login</a>
+              <Link to="/login">Login</Link>
           </li>
         </ul>
         <RouteClass />

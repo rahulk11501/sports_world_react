@@ -58,7 +58,7 @@ callbackLinkedIn = (response) =>{
 					<br/>
 
       <LinkedIn
-        clientId='81lrtbxpin7518'
+        clientId='75op08bvjw26s3'
         callback={this.callbackLinkedIn}
         text='LinkedIn' />
     )

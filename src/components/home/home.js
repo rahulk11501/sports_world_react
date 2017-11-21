@@ -24,8 +24,9 @@ class Home extends React.Component {
           <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
           <h3>Resize the browser window to see the effect.</h3>
 					<LinkedIn
-						clientId='81lrtbxpin7518'
+						clientId='75op08bvjw26s3'
 						callback={this.callbackLinkedIn}
+
 						text='LinkedIn' />
         </div>
       )
